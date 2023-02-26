@@ -27,7 +27,8 @@ public class Constants {
                 case HIT -> 4;
                 case JUMP, ATTACK_1, ATTACK_JUMP_1, ATTACK_JUMP_2 -> 3;
                 case GROUND -> 2;
-                case FALLING, default -> 1;
+                case FALLING -> 1;
+                default -> 1;
             };
         }
     }
